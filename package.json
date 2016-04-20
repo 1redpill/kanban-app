@@ -1,15 +1,25 @@
 {
   "name": "kanban_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Coming soon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aleksandar Atanasov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/1redpill/kanban-app.git"
+  },
   "devDependencies": {
-    "webpack": "^1.13.0"
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0"
   }
 }
